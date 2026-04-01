@@ -1,10 +1,8 @@
 import React, { use } from 'react';
 
-
 const Toolcards = ({dataPromise, addToCart}) => {
     const cardData=use(dataPromise);
     console.log(cardData);
-    
     return  (
         <div className='container mx-auto w-300 grid grid-cols-3 gap-3'>
             {
