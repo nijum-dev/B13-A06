@@ -1,20 +1,18 @@
 import React from 'react';
-
 const Cart = ({cartItems, onRemove}) => {
     return (
-        <div className='container mx-auto p-4 w-full border'>
+        <div className='container  mx-auto p-4 w-full border'>
             {cartItems.map(item => (
                 <div key={item.id} className=' card w-full bg-base-100 shadow p-4 '>
                    
                     <div className='flex justify-between shadow p-4'>
                          <img className=' h-10 w-10' src={item.icon} alt={item.name} />
-
                          <div>
                                 <h3 className='text-xl font-bold mb-2 text-center'>{item.name}</h3>
                     <p className='text-2xl font-bold text-center mb-4'>${item.price}</p>
                          </div>
                           <button 
-                        className=' text-red-500'
+                        className='  text-red-500'
                         onClick={() => onRemove(item.id)}
                     >
                        remove
@@ -30,5 +28,4 @@ const Cart = ({cartItems, onRemove}) => {
         </div>
     );
 };
-
 export default Cart;
