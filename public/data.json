@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "Starter Resume Pack",
+    "description": "Basic resume building package for beginners who want a clean and professional CV.",
+    "price": 9,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "20+ resume templates",
+      "ATS optimization",
+      "Export to PDF",
+      "Basic customization"
+    ],
+    "icon": "../src/assets/writing_2327400 1.png"
+  },
+  {
+    "id": 2,
+    "name": "Professional Resume Builder",
+    "description": "Advanced resume builder with professional templates and customization options.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "100+ premium templates",
+      "ATS optimization",
+      "Export to PDF & DOCX",
+      "Custom color themes",
+      "Cover letter builder"
+    ],
+    "icon": "../src/assets/design-tool.png"
+  },
+  {
+    "id": 3,
+    "name": "Career Pro Plan",
+    "description": "Complete career toolkit including resume, cover letter, and portfolio builder.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best-seller",
+    "features": [
+      "150+ templates",
+      "ATS optimization",
+      "Resume analytics",
+      "Portfolio builder",
+      "Priority support"
+    ],
+    "icon":  "../src/assets/camera.png"
+  },
+  {
+    "id": 4,
+    "name": "Student Resume Kit",
+    "description": "Designed for students and fresh graduates starting their career journey.",
+    "price": 5,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "30+ student templates",
+      "Internship-focused layouts",
+      "Export to PDF",
+      "Simple editor"
+    ],
+    "icon": "../src/assets/operation.png"
+  },
+  {
+    "id": 5,
+    "name": "Executive Career Suite",
+    "description": "Premium tools and templates tailored for senior professionals and executives.",
+    "price": 99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best-seller",
+    "features": [
+      "200+ executive templates",
+      "Advanced ATS optimization",
+      "LinkedIn profile builder",
+      "Portfolio website generator",
+      "1-year premium support"
+    ],
+    "icon":  "../src/assets/portfolio.png"
+  },
+  {
+    "id": 6,
+    "name": "Freelancer Portfolio Builder",
+    "description": "Create stunning resumes and portfolios for freelance professionals.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Portfolio website templates",
+      "Client showcase section",
+      "Resume + portfolio combo",
+      "Export to PDF",
+      "Custom branding"
+    ],
+    "icon":  "../src/assets/soci.png"
+  }
+]
