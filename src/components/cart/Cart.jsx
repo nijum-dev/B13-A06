@@ -23,7 +23,7 @@ const Cart = ({cartItems, onRemove}) => {
                 </div>
             ))}
             {cartItems.length === 0 && (
-                <p className='col-span-3 text-center text-gray-500 py-8'>Your cart is empty</p>
+                <p className='col-span-3   text-center text-gray-500 py-8'>Your cart is empty</p>
             )}
         </div>
     );

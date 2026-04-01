@@ -8,6 +8,8 @@ import Main from './components/main/Main'
 import Toolcards from './components/toolcards/Toolcards'
 import { Suspense } from 'react'
 import GetStarted from './components/getstarted/GetStarted'
+import PricingSection from './components/pricing/PricingSection'
+import FooterSection from './components/footer/FooterSection'
 
 
 
@@ -29,6 +31,8 @@ const dataPromise= data();
    <Rating></Rating>
    <Main></Main>
    <GetStarted></GetStarted>
+   <PricingSection></PricingSection>
+   <FooterSection></FooterSection>
   
    </>   
   )
