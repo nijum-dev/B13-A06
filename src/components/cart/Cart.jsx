@@ -1,7 +1,9 @@
 import React from 'react';
 const Cart = ({cartItems, onRemove}) => {
     return (
-        <div className='container  mx-auto p-4 w-full border'>
+        <div className='container mx-auto p-4 w-full border'>
+
+            
             {cartItems.map(item => (
                 <div key={item.id} className=' card w-full bg-base-100 shadow p-4 '>
                    
